@@ -24,8 +24,6 @@ Hey there, this is an interactive RShiny app that allows users to perform basic 
 - Automatically checks for seasonality and volatility.
 - Recommends SARIMA if seasonality is found.
 - Suggests GARCH if volatility clustering is detected (via residual ACF + squared ACF).
-- Displays messages like _"Seasonality detected – SARIMA recommended"_
-- User can still override and select any model manually.
 
 📉 **Residual Diagnostics**  
 - Histogram of residuals  
